@@ -15,7 +15,6 @@
 <!-- Breakout smashing contribution bricks -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/linodebaru/linodebaru/output/breakout-contribution-graph-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/linodebaru/linodebaru/output/breakout-contribution-graph-light.svg" />
   <img alt="Breakout contribution graph" src="https://raw.githubusercontent.com/linodebaru/linodebaru/output/breakout-contribution-graph.svg" />
 </picture>
 
