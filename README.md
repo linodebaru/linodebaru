@@ -8,14 +8,15 @@
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/linodebaru/linodebaru/main/assets/eth-ascii.svg" width="480" alt="Ethereum ASCII" />
+<img src="https://raw.githubusercontent.com/linodebaru/linodebaru/main/assets/logo-ascii.svg" width="480" alt="Docker ASCII" />
 
 ---
 
+<!-- Breakout smashing contribution bricks -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/linodebaru/linodebaru/output/pacman-contribution-graph-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/linodebaru/linodebaru/output/pacman-contribution-graph-light.svg" />
-  <img alt="Pacman contribution graph" src="https://raw.githubusercontent.com/linodebaru/linodebaru/output/pacman-contribution-graph.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/linodebaru/linodebaru/output/breakout-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/linodebaru/linodebaru/output/breakout-contribution-graph-light.svg" />
+  <img alt="Breakout contribution graph" src="https://raw.githubusercontent.com/linodebaru/linodebaru/output/breakout-contribution-graph.svg" />
 </picture>
 
 ---
