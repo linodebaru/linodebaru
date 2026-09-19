@@ -1,31 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" width="480" height="280">
   <defs>
     <style>
-      @keyframes glow {
-        0%,100% { opacity:1; }
-        50% { opacity:0.5; }
-      }
-      @keyframes float {
-        0%,100% { transform: translateY(0px); }
-        50% { transform: translateY(-6px); }
-      }
-      @keyframes scanline {
-        0% { transform: translateY(-280px); }
-        100% { transform: translateY(280px); }
-      }
+      @keyframes glow { 0%,100% { opacity:1; } 50% { opacity:0.5; } }
+      @keyframes float { 0%,100% { transform: translateY(0px); } 50% { transform: translateY(-6px); } }
+      @keyframes scanline { 0% { transform: translateY(-280px); } 100% { transform: translateY(280px); } }
       .bg { fill: #0d1117; }
-      .eth { font-family: 'Courier New', monospace; font-size: 14px; fill: #f472b6; font-weight: bold; animation: glow 2.5s ease-in-out infinite, float 3s ease-in-out infinite; }
-      .label { font-family: 'Courier New', monospace; font-size: 12px; fill: #f9a8d4; letter-spacing: 5px; }
-      .scan { fill: rgba(244,114,182,0.04); width: 480px; height: 30px; animation: scanline 3s linear infinite; }
-      .border { fill: none; stroke: #f472b6; stroke-width: 1; opacity: 0.4; }
+      .eth { font-family: 'Courier New', monospace; font-size: 14px; fill: #38bdf8; font-weight: bold; animation: glow 2.5s ease-in-out infinite, float 3s ease-in-out infinite; }
+      .label { font-family: 'Courier New', monospace; font-size: 12px; fill: #7dd3fc; letter-spacing: 5px; }
+      .scan { fill: rgba(56,189,248,0.04); width: 480px; height: 30px; animation: scanline 3s linear infinite; }
+      .border { fill: none; stroke: #38bdf8; stroke-width: 1; opacity: 0.4; }
     </style>
   </defs>
-
   <rect class="bg" width="480" height="280" rx="8"/>
   <rect class="border" x="4" y="4" width="472" height="272" rx="6"/>
   <rect class="scan" x="0" y="0"/>
-
-  <!-- diamond bigger + centered with room for label -->
   <text class="eth" x="240" y="40"  text-anchor="middle">          /\</text>
   <text class="eth" x="240" y="58"  text-anchor="middle">         /  \</text>
   <text class="eth" x="240" y="76"  text-anchor="middle">        / ◆  \</text>
@@ -36,6 +24,5 @@
   <text class="eth" x="240" y="166" text-anchor="middle">        \    /</text>
   <text class="eth" x="240" y="184" text-anchor="middle">         \  /</text>
   <text class="eth" x="240" y="202" text-anchor="middle">          \/</text>
-
   <text class="label" x="240" y="240" text-anchor="middle">ETHEREUM</text>
 </svg>
